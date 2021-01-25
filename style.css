@@ -1,0 +1,36 @@
+*
+{
+    padding:0;
+    margin:0;
+}
+
+.container
+{
+    height:100vh;
+    width:60%;
+    margin-left:auto;
+    margin-right:auto;
+    background-color: gray;
+}
+
+.head
+{
+    height:40vh;
+    width:100%;
+    background-color: orange;
+}
+
+.text-container
+{
+    height:40vh;
+    width:100%;
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+}
+
+.bigtext
+{
+    font-size: 3vh;
+}
