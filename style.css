@@ -3,6 +3,10 @@
     padding:0;
     margin:0;
 }
+body
+{
+    font-family: sans-serif;
+}
 
 .container
 {
@@ -11,15 +15,16 @@
     margin-left:auto;
     margin-right:auto;
     background-color: gray;
-    border-top:6px solid orange;
+    border-top:4px solid orange;
     
 }
 
 .head
 {
-    height:40vh;
+    height:45vh;
     width:100%;
     background-color: greenyellow;
+    /* background-image: url("banner-bg.jpg"); */
 }
 
 .text-container
@@ -37,10 +42,18 @@
     font-size: 3vh;
 }
 
+.menu
+{
+    height:5vh;
+    display: flex;
+    justify-content: space-between;
+}
+
 .logo
 {
     margin-left:2.5vh;
     padding-top:2vh;
+    width:30%;
     
 }
 
@@ -51,4 +64,43 @@
     position: relative;
     left:3px;
     bottom:5px;
+}
+
+.buttons
+{
+    display: flex;
+    position: relative;
+    top:13px;
+}
+.btn
+{
+    height:3.5vh;
+    margin:5px;
+}
+.btn-signin
+{
+    color:#fff;
+    background: none;
+    border:1px solid #fff;
+    padding-left: 15px;
+    padding-right: 15px;
+    border-radius: 4px;
+}
+.create-account
+{
+    padding-left: 22px;
+    padding-right: 22px;
+    background-color: orange;
+    border:none;
+    border-radius: 4px;
+    color:#fff;
+}
+
+.for-creators
+{
+    color:#fff;
+    font-size: 15px;
+    position: relative;
+    top:5px;
+    padding-right: 20px;
 }
