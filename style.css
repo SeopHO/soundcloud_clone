@@ -3,6 +3,7 @@
     padding:0;
     margin:0;
 }
+
 body
 {
     font-family: sans-serif;
@@ -17,7 +18,6 @@ body
     margin-right:auto;
     background-color: #ffff;
     border-top:4px solid #ff7700;
-    
 }
 
 .head
@@ -84,11 +84,13 @@ body
     position: relative;
     top:13px;
 }
+
 .btn
 {
     height:3.5vh;
     margin:5px;
 }
+
 .btn-signin
 {
     color:#fff;
@@ -98,6 +100,7 @@ body
     padding-right: 15px;
     border-radius: 4px;
 }
+
 .create-account
 {
     padding-left: 22px;
@@ -133,4 +136,69 @@ body
     border:none;
     border-radius: 7px;
     font-size: 17px;
+}
+
+.search
+{
+    height:15vh;
+    width:60%;
+    margin-right:auto;
+    margin-left:auto;
+    margin-top:4vh;
+}
+
+.search-bar
+{
+    width:45vh;
+    height:4vh;
+    border: 3px solid #DCDCDC;
+    border-radius: 4px;
+    background: #ffff;
+    font-size: 15px;
+}
+
+.or
+{
+    margin-left:18px;
+    margin-right:10px;
+    display: inline;
+}
+
+.btn-upload
+{
+    border:none;
+    background-color: #ff7700;
+    padding-top:15px;
+    padding-bottom:15px;
+    padding-right:30px;
+    padding-left:30px;
+    border-radius: 5px;
+    font-size: 15px;
+    color:#fff;
+}
+
+.main-text
+{
+    margin-top:35px;
+    text-align: center;
+    color:black;
+    font-size: 22px;
+}
+
+.main-boxes
+{
+    height:20vh;
+    width:80%;
+    margin-right:auto;
+    margin-left:auto;
+    display: flex;
+}
+
+.boxes
+{
+    width:16vh;
+    height:16vh;
+    margin-left:15px;
+    margin-right:15px;
+    background-color: gray;
 }
