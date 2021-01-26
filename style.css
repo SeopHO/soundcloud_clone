@@ -11,18 +11,20 @@
     margin-left:auto;
     margin-right:auto;
     background-color: gray;
+    border-top:6px solid orange;
+    
 }
 
 .head
 {
     height:40vh;
     width:100%;
-    background-color: orange;
+    background-color: greenyellow;
 }
 
 .text-container
 {
-    height:40vh;
+    height:30vh;
     width:100%;
     display: flex;
     flex-direction:column;
@@ -33,4 +35,20 @@
 .bigtext
 {
     font-size: 3vh;
+}
+
+.logo
+{
+    margin-left:2.5vh;
+    padding-top:2vh;
+    
+}
+
+.title
+{
+    display: inline;
+    font-size:1.7vh;
+    position: relative;
+    left:3px;
+    bottom:5px;
 }
