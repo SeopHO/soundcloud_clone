@@ -34,7 +34,18 @@ const SongInformation=[
         writer: "legue of legends",
         img:"banner-bg.jpg",
     },
-]
+];
 
-console.log(screen.width/2);
+const boxes = document.querySelectorAll(".boxes");
 
+boxes.forEach(function(box) 
+{
+    box.addEventListener("mouseover",function(event)
+    {
+        const classitem = event.currentTarget.classList;
+        if(classitem.contains("box1"))
+        {
+            console.log(`box1`);
+        }
+    });
+});
