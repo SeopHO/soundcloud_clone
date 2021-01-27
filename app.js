@@ -37,15 +37,70 @@ const SongInformation=[
 ];
 
 const boxes = document.querySelectorAll(".boxes");
+const titles = document.querySelectorAll(".songtitle");
+const writers = document.querySelectorAll(".songwriter");
 
-boxes.forEach(function(box) 
+const items = [];
+
+window.addEventListener("load",function()
 {
-    box.addEventListener("mouseover",function(event)
+    for(let i=0;i<SongInformation.length;i++)
     {
-        const classitem = event.currentTarget.classList;
-        if(classitem.contains("box1"))
+        items[i] = SongInformation[i];
+    }
+    console.log(items);
+    
+});
+
+
+// boxes.forEach(function(box) 
+// {
+//     box.addEventListener("mouseover",function(event)
+//     {
+//         const classitem = event.currentTarget.classList;
+//         console.log(classitem);
+        
+//     });
+// });
+
+titles.forEach(function(title) 
+{
+    title.addEventListener("click",function(event)
+    {
+        const classitem2 = event.currentTarget.classList;
+        console.log(classitem2);
+        for(let i=0; i<11;i++)
         {
-            console.log(`box1`);
+            if(classitem2.contains(`title${i}`))
+            {
+                titles.textContent = items[i];
+            }
         }
+        
     });
 });
+
+writers.forEach(function(writer) 
+{
+    writer.addEventListener("click",function(event)
+    {
+        const classitem3 = event.currentTarget.classList;
+        console.log(classitem3);
+        
+    });
+});
+
+
+function find()
+{
+    boxes.forEach(function()
+    {
+        let a = boxes.childNodes;
+        console.log(a);
+        
+    });
+}
+
+find();
+
+
